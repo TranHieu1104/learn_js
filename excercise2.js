@@ -26,8 +26,10 @@ colors.push('purple');
 console.log(colors)
 
 // Xóa 1 phần tử trong mảng ở vị trí đầu tiên.
-const colors = [ 'red', 'green', 'black', 'blue', 'white']
-colors.shift ('red')
+const colors = ['red', 'green', 'black', 'blue', 'white']
+colors.shift('red')
+console.log(colors)
+colors.slice(1)
 console.log(colors)
 
 // Xóa 1 phần tử trong mảng ở vịt trí cuối cùng.
