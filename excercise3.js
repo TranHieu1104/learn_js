@@ -38,12 +38,31 @@ do {
 var myNumbers = [3, 5, 12, 1, 4, -4, 8, 5];
 myNumbers.forEach(function (e) {
     if (e % 3 == 0) {
-        console.log(e)
+        console.log(`${e} chia hết cho 3`)
     }
     else if (e % 3 == 1) {
-        console.log(e)
+        console.log(`${e} chia hết cho 3 dư 1`)
     }
     else if (e % 3 == 2) {
-        console.log(e)
+        console.log(`${e} chia hết cho 3 dư 2`)
     }
 })
+
+
+var myNumbers = [3, 5, 12, 1, 4, -4, 8, 5];
+myNumbers.forEach(function (e) {
+    switch (e % 3) {
+        case 0:
+            console.log(`${e} chia hết cho 3`)
+            break
+        case 1:
+            console.log(`${e} chia hết cho 3 dư 1`)
+            break
+        case 2:
+            console.log(`${e} chia hết cho 3 dư 2`)
+            break
+        default:
+            break
+    }
+}
+)
